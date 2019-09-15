@@ -1,6 +1,6 @@
 
 export default {
-  mode: 'spa',
+  mode: 'universal',
   /*
   ** Headers of the page
   */
@@ -8,14 +8,9 @@ export default {
     title: process.env.npm_package_name || '',
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no' },
-      { name: 'format-detection', content: 'telephone=no' },
-      { name: 'msapplication-tap-highlight', content: 'no' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
-    // script: [
-    //   { src: 'https://unpkg.com/@ionic/core@4.0.0-alpha.7/dist/ionic.js' }
-    // ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
@@ -47,7 +42,6 @@ export default {
     'bootstrap-vue/nuxt',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    // '@nuxtjs/pwa',
   ],
   /*
   ** Axios module configuration
@@ -63,16 +57,6 @@ export default {
     ** You can extend webpack config here
     */
     extend (config, ctx) {
-      if (process.env.PUBLIC_PATH)
-        config.output.publicPath = process.env.PUBLIC_PATH
     }
-  },
-  vue: {
-    config: {
-     ignoredElements: [/^ion-/]
-    }
-  },
-  router: {
-    mode: 'hash'
   }
 }

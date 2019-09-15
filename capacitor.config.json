@@ -1,7 +1,0 @@
-{
-  "appId": "jp.kght6123.nuxtcapacitordemo",
-  "appName": "NuxtCapacitorDemo",
-  "bundledWebRuntime": true,
-  "npmClient": "yarn",
-  "webDir": "dist"
-}
