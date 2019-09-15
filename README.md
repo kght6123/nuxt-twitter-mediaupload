@@ -1,4 +1,4 @@
-# nuxt-capacitor-demo
+# nuxt-twitter-mediaupload
 
 > My splendiferous Nuxt.js project
 
@@ -7,7 +7,7 @@
 このプロジェクトをCapacitor対応にセットアップして、AndroidとiOSのプロジェクトを作る方法
 
 ```
-$ yarn create nuxt-app nuxt-capacitor-demo
+$ yarn create nuxt-app nuxt-twitter-mediaupload
 yarn create v1.17.3
 [1/4] 🔍  Resolving packages...
 [2/4] 🚚  Fetching packages...
@@ -19,8 +19,8 @@ success Installed "create-nuxt-app@2.10.1" with binaries:
       - create-nuxt-app
 
 create-nuxt-app v2.10.1
-✨  Generating Nuxt.js project in nuxt-capacitor-demo
-? Project name nuxt-capacitor-demo
+✨  Generating Nuxt.js project in nuxt-twitter-mediaupload
+? Project name nuxt-twitter-mediaupload
 ? Project description My splendiferous Nuxt.js project
 ? Author name kght6123
 ? Choose the package manager Yarn
@@ -33,29 +33,29 @@ t selection)
 ? Choose rendering mode Single Page App
 ? Choose development tools jsconfig.json (Recommended for VS Code)
 
-🎉  Successfully created project nuxt-capacitor-demo
+🎉  Successfully created project nuxt-twitter-mediaupload
 
   To get started:
 
-	cd nuxt-capacitor-demo
+	cd nuxt-twitter-mediaupload
 	yarn dev
 
   To build & start for production:
 
-	cd nuxt-capacitor-demo
+	cd nuxt-twitter-mediaupload
 	yarn build
 	yarn start
 
 ✨  Done in 262.24s.
 
-$ cd nuxt-capacitor-demo
+$ cd nuxt-twitter-mediaupload
 $ code .
 $ yarn add @capacitor/core @capacitor/cli
 $ npx cap init
 ? App name NuxtCapacitorDemo
 ? App Package ID (in Java package format, no dashes) jp.kght6123.
 nuxtcapacitordemo
-⠋ Initializing Capacitor project in /Volumes/Develop/capacitor/nu✔ Initializing Capacitor project in /Volumes/Develop/capacitor/nuxt-capacitor-demo in 15.28ms
+⠋ Initializing Capacitor project in /Volumes/Develop/capacitor/nu✔ Initializing Capacitor project in /Volumes/Develop/capacitor/nuxt-twitter-mediaupload in 15.28ms
 
 
 🎉   Your Capacitor project is ready to go!  🎉
