@@ -28,6 +28,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    { src: '~/plugins/firebase.js', ssr: false },
   ],
   /*
   ** Nuxt.js dev-modules
@@ -58,5 +59,12 @@ export default {
     */
     extend (config, ctx) {
     }
-  }
+  },
+
+  /*
+  ** Server Middleware
+  */
+  serverMiddleware: [
+    '~/api/index.js',
+  ]
 }
