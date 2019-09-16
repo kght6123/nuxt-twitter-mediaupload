@@ -20,3 +20,5 @@ $ yarn generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+https://stackoverflow.com/questions/26340704/twitter-image-upload-error-media-parameter-is-missing
